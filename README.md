@@ -14,12 +14,12 @@ To compile the project, please execute the following codes from the command line
 
 If using a Windows-based Terminal:
 
-```javac -classpath .\src\stdlib-package.jar -d .\ src\GameDev6\*.java```
+```javac -classpath .\src\stdlib-package.jar -d .\ src\GameDev6\*.java```\
 ```java -classpath ".\;.\src\stdlib-package.jar" GameDev6.MainGame ```
 
 If using a Linux-based Terminal (Best Method):
 
-```javac -classpath ./src/stdlib-package.jar -d ./ src/GameDev6/*.java```
+```javac -classpath ./src/stdlib-package.jar -d ./ src/GameDev6/*.java```\
 ```java -classpath "./;./src/stdlib-package.jar" GameDev6.MainGame ```
 
 (Please note due to technical difficulties we were unable to add stdlib to the classpath so the following method has not personally been tested):
@@ -27,8 +27,9 @@ If using a Linux-based Terminal (Best Method):
 If StdLib is in your Classpath and acts like the Computers in FIRGA
 Please enter each of the classes and comment out the statements that import any StdLib libraries.
 
-```javac -d ./src src/GameDev6/.java```
+```javac -d ./src src/GameDev6/.java```\
 ```java -classpath ./ GameDev6.MainGame```
+
 The program runs perfectly from within the IntelliJ IDE where StdLib has been added to the libraries.
 
 ### Disclaimer - Use at own risk
